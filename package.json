@@ -1,0 +1,31 @@
+{
+  "name": "diaspora-mongo",
+  "version": "0.0.1",
+  "description": "MongoDB adapter for Diaspora",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerkinDev/Diaspora-Mongo.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Diaspora",
+    "adapter"
+  ],
+  "author": "Gerkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GerkinDev/Diaspora-Mongo/issues"
+  },
+  "homepage": "https://github.com/GerkinDev/Diaspora-Mongo#readme",
+  "dependencies": {
+    "diaspora": "^0.2.0",
+    "mongodb": "^2.2.31"
+  }
+}
