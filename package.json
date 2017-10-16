@@ -25,7 +25,12 @@
   },
   "homepage": "https://github.com/GerkinDev/Diaspora-Mongo#readme",
   "dependencies": {
-    "diaspora": "^0.2.0",
     "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "diaspora": "git+ssh://git@github.com/GerkinDev/Diaspora.git"
+  },
+  "peerDependencies": {
+    "diaspora": ">= 0.2.x"
   }
 }
